@@ -114,7 +114,7 @@
         },
         created() {
             axios
-                .get("http://jspang.com/DemoApi/oftenGoods.php")
+                .get("https://www.easy-mock.com/mock/5ac0ea509bec3b031aef77eb/data/api/oftenGoods")
                 .then(response => {
                     console.log(response);
                     this.oftenGoods = response.data;
@@ -126,7 +126,7 @@
     
             //读取分类商品列表
             axios
-                .get("http://jspang.com/DemoApi/typeGoods.php")
+                .get("https://www.easy-mock.com/mock/5ac0ea509bec3b031aef77eb/data/typeGoods")
                 .then(response => {
                     console.log(response);
                     //this.oftenGoods=response.data;
